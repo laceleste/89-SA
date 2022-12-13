@@ -43,7 +43,11 @@ export default class StoryCard extends Component {
     this.fetchUser();
   }
 
-  likeAction = () => {};
+  likeAction = () => {
+  
+    console.log("oiii")
+    
+  };
 
   fetchUser = () => {
     let theme;
