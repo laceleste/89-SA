@@ -32,7 +32,7 @@ export default class StoryScreen extends Component {
       speakerIcon: "volume-high-outline",
       light_theme: true,
       likes: this.props.route.params.likes,
-      is_liked: this.props.route.params.is_liked
+      is_liked: false
     };
   }
 
